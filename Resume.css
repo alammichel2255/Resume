@@ -3,17 +3,35 @@
 }
 .info {
     position: relative;
-    padding-left: 625px;
+    padding-left: 580px;
     padding-top: 1px;
-    color: green
+    color: rgb(39, 118, 221)
 }
 .links {
-    padding-left: 560px;
+    padding-left: 500px;
+}
+a:hover {
+    color: yellowgreen;
 }
 .name {
     font-weight: 600;
     font-size: xx-large;
     padding-left:  600px;
-    background-color: aquamarine;
     background-size: contain;
+    margin: 0px;
+    border: 0px;
 }
+h2{
+    position: center;
+    padding-left: 300px;
+}
+h3 {
+    position: center;
+    padding-left: 300px;
+}
+.competenciesList {
+    margin-top: 0%;
+    border-top: 0ch;
+    padding-top: 0px;
+}
+
