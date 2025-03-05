@@ -1,0 +1,19 @@
+* {
+    font-family: verdana;
+}
+.info {
+    position: relative;
+    padding-left: 625px;
+    padding-top: 1px;
+    color: green
+}
+.links {
+    padding-left: 560px;
+}
+.name {
+    font-weight: 600;
+    font-size: xx-large;
+    padding-left:  600px;
+    background-color: aquamarine;
+    background-size: contain;
+}
