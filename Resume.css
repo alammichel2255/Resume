@@ -21,7 +21,6 @@ a:hover {
     font-weight: 600;
     font-size: xx-large;
     padding-left:  600px;
-    background-size: contain;
     margin: 0px;
     border: 0px;
 }
@@ -38,6 +37,4 @@ h3 {
 
 .competenciesList {
     margin-top: 0%;
-    border-top: 0ch;
-    padding-top: 0px;
 }
