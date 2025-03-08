@@ -1,18 +1,22 @@
 * {
     font-family: verdana;
 }
+
 .info {
     position: relative;
     padding-left: 580px;
     padding-top: 1px;
     color: rgb(39, 118, 221)
 }
+
 .links {
     padding-left: 500px;
 }
+
 a:hover {
     color: yellowgreen;
 }
+
 .name {
     font-weight: 600;
     font-size: xx-large;
@@ -21,17 +25,19 @@ a:hover {
     margin: 0px;
     border: 0px;
 }
-h2{
+
+h2 {
     position: center;
-    padding-left: 300px;
+    padding: 1px 3px;
 }
+
 h3 {
     position: center;
     padding-left: 300px;
 }
+
 .competenciesList {
     margin-top: 0%;
     border-top: 0ch;
     padding-top: 0px;
 }
-
