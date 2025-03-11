@@ -27,8 +27,18 @@ body {
     margin-top: 50px;
 }
 
+.info {
+    position: relative;
+    padding-top: 1px;
+    color: rgb(39, 118, 221);
+    display: inline;
+    float: left;
+}
+
 .links {
-    padding-left: 500px;
+    position: relative;
+    display: inline;
+    float: left;
 }
 
 a:hover {
@@ -44,11 +54,6 @@ a:hover {
     z-index: 1;
 }
 
-.info {
-    position: relative;
-    padding-top: 1px;
-    color: rgb(39, 118, 221)
-}
 
 h2 {
     position: center;
