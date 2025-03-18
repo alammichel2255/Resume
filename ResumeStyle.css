@@ -40,6 +40,9 @@ nav {
     padding: 20px 0;
 }
 
+img {
+    border-radius: 75%;
+}
 .top h1 {
     margin: 5px 0;
 }
