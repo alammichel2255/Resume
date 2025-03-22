@@ -1,133 +1,85 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="UTF-8">
-        <link rel="stylesheet" href="ResumeStyle.css">
-        <title>Michel's Resume</title>
-        <nav>
-          <ul class="nav-list">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ResumeStyle.css">
+    <title>Michel's Resume</title>
+</head>
+<body>
+
+    <nav>
+        <ul class="nav-list">
             <a href="#exp"><li>Professional Experience</li></a>
             <a href="#edu"><li>Education & Certification</li></a>
             <a href="#tech"><li>Technical Competencies</li></a>
-          </ul>
-          <input class="seach-bar" type="text" placeholde="Search..."><button class="search"> Search </button>
-        </nav>
-    </head>
-    <body>
-        <section class="top">
-          <h1 class="name">MICHEL ALAM VILLARROEL</h1>
-          <h4 class="info">Phone: (786)369-6472 | Email: alammichel25@gmail.com</h4>
-          <h5 class="links"><a href="https://www.linkedin.com/in/michel-alam-villarroel" target="_blank"><img src="https://media.licdn.com/dms/image/v2/D4E03AQHdz2r1RyUEJg/profile-displayphoto-shrink_800_800/B4EZS.HIjxGgAg-/0/1738356328956?e=1747872000&v=beta&t=y3KAGloHmmvXw8g8tHr_8Fp3zGg2JFk137uGbqzXwME" alt="Michel's linked in picture" width="20" height="20"> Linkedin: www.linkedin.com/in/michel-alam-villarroel</a> | <a href="https://github.com/alammichel2255" target="_blank"><img src="https://avatars.githubusercontent.com/u/109398806?s=400&u=9bdadc52e0d8a6d08a4c25dd196586435ee4bf4d&v=4" alt="Michel's github profile picture" width="20" height="20"> GitHub: 
-            www.github.com/alammichel2255</a></h5>
-        </section>
-        <section class="summary">
-          <h2>TECHNICAL SUPPORT | OPERATIONAL LEADERSHIP | INFORMATION TECHNOLOGY</h2>
-            <p>Information Technology Professional and Army Veteran leveraging nearly six years of experience in IT
-             systems, network administration, software development, and communication technology. Proven ability to lead teams in high-paced environments while
-             managing complex IT infrastructure and troubleshooting critical systems. Expertise includes satellite systems, baseband networks, end-user support,
-              and cybersecurity compliance. Career supported by a Bachelor’s degree in Psychology and an Active Top Secret/SCI Security Clearance.
-            </p>
-        </section>
-        <section class="competencies">
-          <h3>CORE COMPETENCIES</h3>
-          <ul class="competenciesList">
-            <li><strong>System Administration:</strong> Windows Server, Active Directory, DNS, Group Policies, IIS</li>
-            <li><strong>Network & Infrastructure:</strong> Network Administration, VoIP, VTC Setup, Patch Management, CAT5/6 Cable Crimping</li>
-            <li><strong>Virtualization & Cloud:</strong> VMware, vSphere</li>
-            <li><strong>Software Development:</strong> JavaScript, HTML, CSS, PHP, SQL, React.js</li>
-            <li><strong>IT Support & Security:</strong> Remedy Help Ticketing, Software Authorization, Imaging Workstations, Security Compliance Monitoring</li>
-            <li><strong>Technical Tools:</strong> PuTTY, Microsoft Office 365, Google Workspace, Docker, Git</li>
-            <li><strong>Languages:</strong> English | Spanish</li>
-          </ul>
-        </section>
-        <section id="exp" class="professional-exp">
+        </ul>
+        <div class="search-container">
+            <input class="search-bar" type="text" placeholder="Search...">
+            <button class="search-button">Search</button>
+        </div>
+    </nav>
+
+    <section class="top">
+        <h1 class="name">MICHEL ALAM VILLARROEL</h1>
+        <h4 class="info">Phone: (786) 369-6472 | Email: alammichel25@gmail.com</h4>
+        <h5 class="links">
+            <a href="https://www.linkedin.com/in/michel-alam-villarroel" target="_blank">
+                <img src="https://media.licdn.com/dms/image/v2/D4E03AQHdz2r1RyUEJg/profile-displayphoto-shrink_800_800/B4EZS.HIjxGgAg-/0/1738356328956?e=1747872000&v=beta&t=y3KAGloHmmvXw8g8tHr_8Fp3zGg2JFk137uGbqzXwME"
+                     alt="Michel's LinkedIn picture" width="20" height="20"> 
+                LinkedIn: www.linkedin.com/in/michel-alam-villarroel
+            </a> 
+            | 
+            <a href="https://github.com/alammichel2255" target="_blank">
+                <img src="https://avatars.githubusercontent.com/u/109398806?s=400&u=9bdadc52e0d8a6d08a4c25dd196586435ee4bf4d&v=4"
+                     alt="Michel's GitHub profile picture" width="20" height="20"> 
+                GitHub: www.github.com/alammichel2255
+            </a>
+        </h5>
+    </section>
+
+    <section class="summary">
+        <h2>TECHNICAL SUPPORT | OPERATIONAL LEADERSHIP | INFORMATION TECHNOLOGY</h2>
+        <p>Information Technology Professional and Army Veteran leveraging nearly six years of experience in IT
+           systems, network administration, software development, and communication technology. Proven ability to lead teams in high-paced environments while
+           managing complex IT infrastructure and troubleshooting critical systems. Expertise includes satellite systems, baseband networks, end-user support,
+           and cybersecurity compliance. Career supported by a Bachelor’s degree in Psychology and an Active Top Secret/SCI Security Clearance.
+        </p>
+    </section>
+
+    <section id="exp" class="professional-exp">
         <h3>PROFESSIONAL EXPERIENCE</h3>
         <div class="main">
             <div class="container">
-            <h4>United States Army | Various Locations</h4>
-            <h4 class="work-dates">January 2019 - January 2025</h4>
-            <h4>Signal Support Systems Specialist | Network & IT Specialist</h4>
+                <h4>United States Army | Various Locations</h4>
+                <h4 class="work-dates">January 2019 - January 2025</h4>
+                <h4>Signal Support Systems Specialist | Network & IT Specialist</h4>
             </div>
             <ul>
                 <li>Configured and managed Windows-based networks, including Active Directory, DNS, Group Policies, and security protocols.</li>
-                <li>Installed, maintained, and troubleshot advanced communication and IT systems, including radio networks, satellite communication devices,
-                     and network infrastructures.</li>
+                <li>Installed, maintained, and troubleshot advanced communication and IT systems, including radio networks, satellite communication devices, and network infrastructures.</li>
                 <li>Provided hands-on IT support, including patching user ports, configuring printers, VoIP phone setup, and resolving end-user issues.</li>
-                <li>Led small teams in high-stakes environments, ensuring IT and communication readiness during operations.</li>
-                <li>Monitored network security compliance and performed risk mitigation to prevent system vulnerabilities.</li>
-                <li>Created and unlocked user accounts, imaged computer workstations, and authorized software installations to ensure seamless operational efficiency.</li>
             </ul>
         </div>
-        <div class="main1">
-            <div class="contianer1">
-                <h4>Joint Special Operation Command (JSOC) Internship | U.S. Army</h4>
-                <h4 class="work-dates">October 2022 - June 2023</h4>
-                <h4>Jr. Software Developer Intern</h4>
-            </div>
-            <ul>
-                <li>Developed and maintained web applications to support mission-critical decision-making processes.</li>
-                <li>Assisted in full-stack development projects, enhancing user interfaces and backend functionalities.</li>
-                <li>Conducted system testing, debugging, and performance optimizations to improve system reliability.</li>
-                <li>Collaborated with teams to integrate software solutions within secure military environments.</li>
-            </ul>
-        </div>
-        <div class="main2">
-            <div class="container2">
-                <h4>1st Ranger Battalion, 75th Ranger Regiment, U.S. Army</h4>
-                <h4 class="work-dates">January 2019 - January 2025</h4>
-                <h4>IT & Network Administrator | Technical Support Specialist</h4>
-            </div>
-            <ul>
-                <li>Provided comprehensive IT support, including network troubleshooting, system configuration, and helpdesk support.</li>
-                <li>Managed and maintained VTC systems, VoIP phones, and Remedy Help Ticketing systems.</li>
-                <li>Ran and crimped CAT5/6 cables, ensuring secure and efficient network connectivity.</li>
-                <li>Configured and monitored VMware systems, ensuring optimal performance for virtualized environments.</li>
-                <li>Provided comprehensive IT support to senior military leadership, equivalent to C-suite executives in the corporate sector, troubleshooting and
-                     resolving computer, network, and software issues to ensure operational efficiency.</li>
-                <li>Educated and assisted high-ranking officers in troubleshooting their own systems when necessary, translating complex technical issues into clear,
-                     non-technical terms to enhance understanding and decision-making.</li>
-            </ul>
-          </div>
-            <div class="main3">
-              <div class="container3">
-                <h4>Aloft Miami Doral</h4>
-                <h4 class="work-dates">April 2018 - December 2018</h4>
-                <h4>Front Desk Clerk</h4>
-              </div>
-              <ul>
-                <li>Delivered exceptional customer service, managing guest check-ins, reservations, and conflict resolution.</li>
-                <li>Developed strong interpersonal skills, enhancing guest satisfaction and operational efficiency.</li>
-              </ul>
-            </div>
-        </section>
-        <section id="edu" class="education">
-          <h3>EDUCATION & CERTIFICATIONS</h3>
-          <p><strong>Bachlor of Science (B.S.)</strong>, Psychology | University of Carabobo | 2019 <br>
-          Software Development Immersive Course | Galvanize | 2022 <br>
-          <strong>Security+ (SEC+)</strong> Certification | CompTIA | 2020 <br>
-          <strong>Specialized Military Training:</strong> IT Networking & Cisco Routing, Preventive Maintenance Checks & Service <br>
-          (PMCS), Basic Leadership & Development.</p>
-        </section>
-        <section id="tech"class="technical">
-          <h3>TECHNICAL COMPETENCIES</h3>
-          <p><strong>System Administration & Management:</strong> Windows Server, Active Directory, DNS, Group Policies, IIS</p>
-          <p><strong>Virtualization:</strong> vSphere, VMware</p>
-          <p><strong>Programming & Web Development:</strong> JavaScript, HTML, CSS, PHP, SQL, React.js</p>
-          <p><strong>Operating Systems:</strong> MacOS, Microsoft Windows, Windows Server, Linux (Ubuntu, Kali)</p>
-          <p><strong>Troubleshooting & Logs:</strong> Network security monitoring, Issue resolution, log analysis</p>
-          <p><strong>Software & Development Tools:</strong> Microsoft Office Suite 365, VS Code, Docker, Git</p>
-          <p><strong>Google Workspace:</strong> Gmail, Calendar, Contacts, Meet & Chat</p>
-        </section>
-        <footer>
-          <ul>
-            <a href=""><li>Logo</li></a>
-            <a href=""><li>placeholder 1</li></a>
-            <a href=""><li>placeholder 2</li></a>
-            <a href=""><li>placeholder 3</li></a>
-            <a href=""><li>placeholder 4</li></a>
-            <a href=""><li>placeholder 5</li></a>
-            <a href=""><li>placeholder 6</li></a>
-          </ul>
-        </footer>
-    </body>
+    </section>
+
+    <section id="edu" class="education">
+        <h3>EDUCATION & CERTIFICATIONS</h3>
+        <p><strong>Bachelor of Science (B.S.)</strong>, Psychology | University of Carabobo | 2019 <br>
+           Software Development Immersive Course | Galvanize | 2022 <br>
+           <strong>Security+ (SEC+)</strong> Certification | CompTIA | 2020</p>
+    </section>
+
+    <section id="tech" class="technical">
+        <h3>TECHNICAL COMPETENCIES</h3>
+        <p><strong>System Administration & Management:</strong> Windows Server, Active Directory, DNS, Group Policies, IIS</p>
+        <p><strong>Programming & Web Development:</strong> JavaScript, HTML, CSS, PHP, SQL, React.js</p>
+        <p><strong>Operating Systems:</strong> MacOS, Microsoft Windows, Windows Server, Linux (Ubuntu, Kali)</p>
+    </section>
+
+    <footer>
+        <p>© 2025 Michel Alam Villarroel. All rights reserved.</p>
+    </footer>
+
+</body>
 </html>
